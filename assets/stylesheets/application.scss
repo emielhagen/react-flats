@@ -17,16 +17,16 @@ body {
   display: flex;
 }
 
-.map-container {
+.mapContainer {
   height: 100vh;
-  width: 40%;
+  width: 500px;
   position: sticky !important; /* !important to override Gmaps inline CSS */
   top: 0 !important;
 }
 
 .flat-list {
   padding-left: 10px;
-  width: 60%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -42,4 +42,9 @@ body {
   width: 20px;
   background-color: red;
   border-radius: 50%;
+}
+
+.left-scene {
+  display: flex;
+  flex-grow: 1;
 }
